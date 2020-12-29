@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Projectiles
+namespace Runeterraria..Projectiles
 {
 	public class ExampleBullet : ModProjectile
 	{

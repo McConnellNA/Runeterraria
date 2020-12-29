@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExampleMod.Items.Weapons
+namespace Runeterraria.Items.Weapons.Magic
 {
 	public class ExampleStaff : ModItem
 	{
@@ -33,3 +33,4 @@ namespace ExampleMod.Items.Weapons
 		}
   }
 }
+-
