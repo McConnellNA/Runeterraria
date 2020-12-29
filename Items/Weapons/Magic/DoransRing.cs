@@ -28,7 +28,7 @@ namespace Runeterraria.Items.Weapons.Magic
 			item.rare = 1;
 			item.UseSound = SoundID.Item20;
 			item.autoReuse = true;
-			item.shoot = ModContent.ProjectileType<SparklingBall>();
+			item.shoot = ModContent.ProjectileType<DoransBalls>();
 			item.shootSpeed = 3f;
 		}
   }
