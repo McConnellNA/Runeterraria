@@ -17,8 +17,8 @@ namespace Runeterraria.Items.Weapons.Melee
       item.melee = true; // Whether your item is part of the melee class
       item.width = 30; // The item texture's width
       item.height = 30; // The item texture's height
-      item.useTime = 1; // The time span of using the weapon. Remember in terraria, 60 frames is a second.
-      item.useAnimation = 1; // The time span of the using animation of the weapon, suggest setting it the same as useTime.
+      item.useTime = 17; // The time span of using the weapon. Remember in terraria, 60 frames is a second.
+      item.useAnimation = 17; // The time span of the using animation of the weapon, suggest setting it the same as useTime.
       item.knockBack = 3; // The force of knockback of the weapon. Maximum is 20
       item.value = Item.buyPrice(450); // The value of the weapon in copper coins
       item.rare = 1; // The rarity of the weapon, from -1 to 13. You can also use ItemRarityID.TheColorRarity
