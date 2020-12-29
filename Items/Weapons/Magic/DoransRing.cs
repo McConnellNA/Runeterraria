@@ -23,7 +23,7 @@ namespace Runeterraria.Items.Weapons.Magic
 			item.useStyle = 5;
 			item.noMelee = true; //so the item's animation doesn't do damage
 			item.knockBack = 2.8f;
-			item.value = Item.buyPrice(400);
+			item.value = Item.buyPrice(2000);
 			item.rare = 1;
 			item.UseSound = SoundID.Item20;
 			item.autoReuse = true;

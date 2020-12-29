@@ -20,7 +20,7 @@ namespace Runeterraria.Items.Weapons.Melee
       item.useTime = 17; // The time span of using the weapon. Remember in terraria, 60 frames is a second.
       item.useAnimation = 17; // The time span of the using animation of the weapon, suggest setting it the same as useTime.
       item.knockBack = 3; // The force of knockback of the weapon. Maximum is 20
-      item.value = Item.buyPrice(450); // The value of the weapon in copper coins
+      item.value = Item.buyPrice(2000); // The value of the weapon in copper coins
       item.rare = 1; // The rarity of the weapon, from -1 to 13. You can also use ItemRarityID.TheColorRarity
       item.UseSound = SoundID.Item1; // The sound when the weapon is being used
       item.autoReuse = true; // Whether the weapon can be used more than once automatically by holding the use button
