@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Runeterraria..Projectiles
 {
-	public class ExampleBullet : ModProjectile
+	public class DoransBalls : ModProjectile
 	{
 		public override void SetStaticDefaults() {
 			DisplayName.SetDefault("Example Bullet");     //The English name of the projectile

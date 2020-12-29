@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace Runeterraria.Items.Weapons.Magic
 {
-	public class ExampleStaff : ModItem
+	public class DoransRing : ModItem
 	{
 		public override void SetStaticDefaults() {
 			Tooltip.SetDefault("Crafted by the once great artificer, Doran");
