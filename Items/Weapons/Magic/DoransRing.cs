@@ -1,5 +1,4 @@
-using ExampleMod.Projectiles;
-using ExampleMod.Tiles;
+using Runeterraria.Projectiles;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -23,7 +22,7 @@ namespace Runeterraria.Items.Weapons.Magic
 			item.useAnimation = 30;
 			item.useStyle = 5;
 			item.noMelee = true; //so the item's animation doesn't do damage
-			item.knockBack = 2.8;
+			item.knockBack = 2.8f;
 			item.value = Item.buyPrice(400);
 			item.rare = 1;
 			item.UseSound = SoundID.Item20;
