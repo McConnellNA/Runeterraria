@@ -27,7 +27,7 @@ namespace Runeterraria.Items.Weapons.Ranger
 			item.shootSpeed = 16f; // the speed of the projectile (measured in pixels per frame)
 			item.useAmmo = AmmoID.Bullet; // The "ammo Id" of the ammo item that this weapon uses. Note that this is not an item Id, but just a magic value.
 		}
-
+}
     public override bool Shoot(Player player, ref Vector2 position, ref float speedX, ref float speedY, ref int type, ref int damage, ref float knockBack)
     {
       int numberProjectiles = 5; // 4 or 5 shots
@@ -39,3 +39,4 @@ namespace Runeterraria.Items.Weapons.Ranger
       }
       return false;
     }
+  }
