@@ -21,7 +21,7 @@ namespace ExampleMod.Items.Weapons
 			item.height = 5;
 			item.useTime = 30;
 			item.useAnimation = 30;
-			item.useStyle = ItemUseStyleID.HoldingOut;
+			item.useStyle = 5;
 			item.noMelee = true; //so the item's animation doesn't do damage
 			item.knockBack = 2.8;
 			item.value = Item.buyPrice(400);
@@ -29,7 +29,7 @@ namespace ExampleMod.Items.Weapons
 			item.UseSound = SoundID.Item20;
 			item.autoReuse = true;
 			item.shoot = ModContent.ProjectileType<SparklingBall>();
-			item.shootSpeed = 16f;
+			item.shootSpeed = 3f;
 		}
   }
 }
