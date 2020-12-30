@@ -2,6 +2,7 @@ using Runeterraria.Projectiles;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Runeterraria.Projectiles.Magic;
 
 namespace Runeterraria.Items.Weapons.Magic
 {
