@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Runeterraria.Projectiles
+namespace Runeterraria.Projectiles.Magic
 {
 	public class DoransBalls : ModProjectile
 	{

@@ -3,6 +3,8 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Runeterraria.Projectiles.Minions;
+using Runeterraria.Buffs;
 
 namespace Runeterraria.Items.Weapons.Summon
 {
@@ -31,9 +33,9 @@ namespace Runeterraria.Items.Weapons.Summon
 
 			item.noMelee = true;
 			item.summon = true;
-			item.buffType = ModContent.BuffType<ExampleMinionBuff>();
+			item.buffType = ModContent.BuffType<HeimTurretBuff>();
 
-			item.shoot = ModContent.ProjectileType<ExampleMinion>();
+			item.shoot = ModContent.ProjectileType<HeimTurret>();
 		}
 
 		public override bool Shoot(Player player, ref Vector2 position, ref float speedX, ref float speedY, ref int type, ref int damage, ref float knockBack)
