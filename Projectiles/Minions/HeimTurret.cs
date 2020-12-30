@@ -3,7 +3,7 @@ using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Runeterraria.Projectiles.Minions;
+using Runeterraria.Projectiles;
 using Runeterraria.Buffs;
 
 namespace Runeterraria.Projectiles.Minions
@@ -22,17 +22,21 @@ namespace Runeterraria.Projectiles.Minions
     {
       projectile.width = 24;
 			projectile.height = 32;
+      projectile.friendly = true;
       projectile.minion = true;
       projectile.minionSlots = 1f;
       projectile.penetrate = -1;
+      projectile.ignoreWater = true;
     }
 
-    public override bool? CanCutTiles() {
+    public override bool? CanCutTiles()
+    {
 			return false;
 		}
 
-    public override bool MinionContactDamage() {
-			return false;
+    public override bool MinionContactDamage()
+    {
+			return true;
 		}
 
     public override void AI()
@@ -40,10 +44,12 @@ namespace Runeterraria.Projectiles.Minions
       Player player = Main.player[projectile.owner];
 
       #region Active check
-      if (player.dead || !player.active) {
+      if (player.dead || !player.active)
+      {
 				player.ClearBuff(ModContent.BuffType<HeimTurretBuff>());
 			}
-			if (player.HasBuff(ModContent.BuffType<HeimTurretBuff>())) {
+			if (player.HasBuff(ModContent.BuffType<HeimTurretBuff>()))
+      {
 				projectile.timeLeft = 2;
 			}
 			#endregion
