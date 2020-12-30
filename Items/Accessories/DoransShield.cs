@@ -24,7 +24,7 @@ namespace Runeterraria.Items.Accessories
     public override void UpdateAccessory(Player player, bool hideVisual)
     {
       player.statLifeMax2 += 20;
-      player.endurance += 0.07f;
+      player.endurance += 0.04f;
     }
   }
 }
