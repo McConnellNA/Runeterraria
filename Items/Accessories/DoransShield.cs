@@ -9,7 +9,7 @@ namespace Runeterraria.Items.Accessories
   {
     public override void SetStaticDefaults()
     {
-			Tooltip.SetDefault("Crafted by the once great smith, Doran");
+			Tooltip.SetDefault("Crafted by the once great smith, Doran. Gives you 20 max life an 4% damage reduction");
     }
 
     public override void SetDefaults()

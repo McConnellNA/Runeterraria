@@ -15,8 +15,8 @@ namespace Runeterraria.Items.Weapons.Melee
     {
       item.damage = 8; // The damage your item deals
       item.melee = true; // Whether your item is part of the melee class
-      item.width = 30; // The item texture's width
-      item.height = 30; // The item texture's height
+      item.width = 20; // The item texture's width
+      item.height = 12; // The item texture's height
       item.useTime = 17; // The time span of using the weapon. Remember in terraria, 60 frames is a second.
       item.useAnimation = 17; // The time span of the using animation of the weapon, suggest setting it the same as useTime.
       item.knockBack = 3f; // The force of knockback of the weapon. Maximum is 20
